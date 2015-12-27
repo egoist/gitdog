@@ -9,7 +9,8 @@ module.exports = {
     filename: 'bundle.js'
   },
   resolve: {
-    extensions: ['', '.js', '.vue']
+    extensions: ['', '.js', '.vue', '.json'],
+    packageMains: ['webpack', 'browser', 'web', 'browserify', ['jam', 'main'], 'main']
   },
   module: {
     loaders: [
@@ -20,6 +21,10 @@ module.exports = {
       {
         test: /\.vue$/,
         loaders: ['vue']
+      },
+      {
+        test: /\.json$/,
+        loaders: ['json']
       }
     ]
   },
