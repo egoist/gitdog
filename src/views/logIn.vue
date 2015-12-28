@@ -26,8 +26,6 @@
 </template>
 
 <script>
-  import github from 'github-api'
-
   export default {
     data () {
       return {

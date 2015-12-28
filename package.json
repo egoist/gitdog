@@ -22,6 +22,7 @@
     "babel-preset-stage-0": "^6.3.13",
     "babel-runtime": "^5.8.34",
     "css-loader": "^0.23.1",
+    "electron-prebuilt": "^0.36.2",
     "express": "^4.13.3",
     "json-loader": "^0.5.4",
     "postcss-loader": "^0.8.0",
